@@ -1,0 +1,73 @@
+/*---------general styles---------*/
+
+
+
+
+* {
+		margin				: 				0 															;
+		padding				: 				0 															;
+		line-height 		: 				1 															;
+}			
+
+
+
+body {			
+		font-family 		: 				verdana, arial, sans-serif									;
+		background			: 				#ffffff													;
+		font-size			:   			62.5%                               						; 
+}							
+
+
+
+h1, 			
+h2, 			
+h3, 			
+h4, 			
+h5, 			
+h6 {			
+		font-family 		: 				verdana, arial, sans-serif							;
+		margin-bottom		: 				.5em															;
+		text-align: center;  
+}
+	
+/*---------global combinations-----*/
+			
+
+img {
+	max-width: 100%;
+}
+
+
+.debug{			
+		background			: 				red !important												;
+}			
+
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}			
+			
+/*---------specific styles---------*/
+
+/*@media screen and (min-width: 480px) {
+	.rwd-line {
+		display: inline;
+	}
+*/
+
+
+
+
+
+
+
+
+
+
+
