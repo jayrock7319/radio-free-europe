@@ -49,6 +49,12 @@ img {
     height: 0;
     clear: both;
     visibility: hidden;
+}
+
+.hide-text {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
 }			
 			
 /*---------specific styles---------*/
