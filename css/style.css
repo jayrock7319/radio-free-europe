@@ -142,6 +142,64 @@ header{
 .sentence {
 	margin-bottom: 2em;
 }
+
+.analysis {
+	border-top: 1px solid #cccccc;
+	padding-top: 2em;
+	width: 250px;
+	height: 100px;
+	margin:0 auto
+}
+
+.analysis img {
+	float: left;
+	margin-right: 1em;
+}
+
+.analysis h2 {
+	color: #6b747c;
+	text-transform: uppercase;
+	font-family : "futurastd", arial, sans-serif;
+	font-size: 1em;
+	margin-bottom: 1em;
+	margin-top: .5em;
+}
+
+.analysis a{
+	color: #ff993f;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.top-stories{
+	border-top: 1px solid #cccccc;
+	padding-top: 2em;
+	width: 247px;
+	height: 200px;
+	margin:0 auto;
+	padding-left: .3em;
+}
+
+.top-stories h2 {
+	color: #6b747c;
+	text-transform: uppercase;
+	font-family : "futurastd", arial, sans-serif;
+	font-size: 1em;
+	margin-bottom: 2em;
+}
+
+.top-stories a{
+	color: #ff993f;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.sentence2 {
+	margin-bottom: 1.5em;
+}
+
 /*@media screen and (min-width: 480px) {
 	.rwd-line {
 		display: inline;
