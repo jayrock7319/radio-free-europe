@@ -12,7 +12,7 @@
 
 
 body {			
-		font-family 		: 				verdana, arial, sans-serif									;
+		font-family 		: 				"merriweather","times new roman", serif;
 		background			: 				#ffffff													;
 		font-size			:   			62.5%                               						; 
 }							
@@ -25,7 +25,11 @@ h3,
 h4, 			
 h5, 			
 h6 {			
-		font-family 		: 				verdana, arial, sans-serif							;
+		font-family 		: 				"merriweather","times new roman", serif;						
+}
+
+p {
+	line-height: 1.5em;
 }
 	
 /*---------global combinations-----*/
@@ -55,10 +59,89 @@ img {
 text-indent: 100%;
 white-space: nowrap;
 overflow: hidden;
+}
+
+.rwd-line {
+	display: block;
 }			
 			
 /*---------specific styles---------*/
 
+header{
+	width: 100% ;
+	border-top: 6px solid #ec6803;
+	border-bottom: 1px solid #cccccc;
+	outline-bottom: 4px solid #f2f2f2; 
+}
+.logo {
+	margin-left: 13.642857143%; /*191/1400*/
+	margin-top: 1.4em;
+	margin-bottom: 1em;
+}
+.btop {
+	width: 100% ;
+	border-top: 4px solid #f2f2f2;
+}
+.top-head {
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 15%; /*210/1400*/
+	margin-top: 1.5em;
+	line-height: 1.2em;
+}
+.news-by {
+	color: #848484;
+	margin-left: 15%; /*210/1400*/
+}
+.news-by p {
+	line-height: 3em;	
+}
+
+.news {
+	color: #ff993f;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.news-section {
+	width: 77.142857143%; /*1080/1400*/
+	border-top: 1px solid #6b747c;
+	margin: 0 auto;
+	margin-top: 1em;
+	padding-top: 1.5em;
+	font-size: 1.2em;
+}
+
+.aleksandr-ankvab p{
+	color: #bfbfbf;
+	font-size: .8em;
+	line-height: 2em;
+	margin-bottom: 2em;
+}
+
+.t{
+	width: 5.7em;
+	height: 6.7em;
+	background: #6b747c;
+	padding-left: 2.3em;
+	padding-top: 1.3em;
+	float: left;
+	margin-right: 2em;
+	margin-bottom: 1em;
+}
+
+.t p{
+	color: #ffffff;
+	text-transform:uppercase;
+	font-size: 5.5em;
+	font-family : verdana, arial, sans-serif;
+	line-height: 1em;
+}
+
+.sentence {
+	margin-bottom: 2em;
+}
 /*@media screen and (min-width: 480px) {
 	.rwd-line {
 		display: inline;
