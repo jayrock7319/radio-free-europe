@@ -29,7 +29,7 @@ h6 {
 }
 
 p {
-	line-height: 1.5em;
+	line-height: 1.35em;
 }
 	
 /*---------global combinations-----*/
@@ -83,7 +83,7 @@ header{
 	border-top: 4px solid #f2f2f2;
 }
 .top-head {
-	font-size: 2.5em;
+	font-size: 2em;
 	text-align: left;
 	margin-left: 15%; /*210/1400*/
 	margin-top: 1.5em;
@@ -198,6 +198,70 @@ header{
 
 .sentence2 {
 	margin-bottom: 1.5em;
+}
+
+.facebook {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.social-media {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.related-section {
+	width: 77.142857143%; /*1080/1400*/
+	border-top: 1px solid #6b747c;
+	margin: 0 auto;
+	margin-top: 1em;
+	padding-top: 1.5em;
+	font-size: 1.2em;
+}
+
+.related-section h2 {
+	color: #6b747c;
+	text-transform: uppercase;
+	font-family : "futurastd", arial, sans-serif;
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+.related-section img {
+	width: 120px;
+	height: 72px;
+	float: left;
+	margin-right: 1em;
+}
+
+.size{
+	height: 100px;
+	text-align: left;
+	max-width: 304px;
+	padding-top: 1.8em;
+}
+
+.related p {
+	font-size: 1.2em;
+	line-height: 1em;
+	clear: both;
+
+}
+
+.border {
+	border-top: 1px solid #e5e5e5;
+}
+
+.live-blog {
+	background: orange;
+	font-size: .9em;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	font-family : "futurastd", arial, sans-serif;
+	padding: 3px 5px;
+	margin-right: .5em;
 }
 
 /*@media screen and (min-width: 480px) {
