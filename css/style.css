@@ -92,6 +92,7 @@ header{
 .news-by {
 	color: #848484;
 	margin-left: 15%; /*210/1400*/
+
 }
 .news-by p {
 	line-height: 3em;	
@@ -111,6 +112,7 @@ header{
 	margin-top: 1em;
 	padding-top: 1.5em;
 	font-size: 1.2em;
+	/*padding-left: 15.555555556% 168/1080*/
 }
 
 .aleksandr-ankvab p{
@@ -241,11 +243,10 @@ header{
 	padding-top: 1.8em;
 }
 
-.related p {
-	font-size: 1.2em;
-	line-height: 1em;
-	clear: both;
-
+.related-section p {
+	font-size: .9em;
+	line-height: 1.5em;
+	text-transform: capitalize;
 }
 
 .border {
@@ -264,6 +265,94 @@ header{
 	margin-right: .5em;
 }
 
+.comments-section {
+	width: 90%;
+	border-top: 1px solid #6b747c;
+	margin: 0 auto;
+	margin-top: 1em;
+	padding-top: 1.5em;
+	font-size: 1.2em;
+}
+
+.img-name {
+	margin-bottom: 3em;
+	float: none;
+}
+
+.comments-section p {
+	line-height: 1.7em;
+}
+
+.big-number {
+	display: none;
+}
+
+.comments-section h2 {
+	font-family : "futurastd", arial, sans-serif;
+	text-transform: uppercase;
+	color: #6b747c;
+}
+
+.comment-box {
+	margin-top: 4em;
+}
+
+.input-box {
+	height: 10.5em;
+	width: 100%;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	outline: 1px solid #cbcbcb;
+	border-top: 3px solid #ededed;
+	border-left: 3px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+
+.sub-btn {
+	border:none;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #ec6803; 
+	font-weight: bold;
+	padding: 1.1em 1em .8em;
+	margin-bottom: 2.5em;
+}
+
+.comment,
+.reply {
+	border-top: 1px solid #cccccc;
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+
+.comment img,
+.reply img {
+
+	margin-right: 1.5em;
+}
+.img-name img{
+	float: left;
+}
+
+.reply {
+	margin-left: 10%;
+}
+
+.name {
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.date {
+	color: #758189;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+.flag {
+	margin-top: 3em;
+}
 /*@media screen and (min-width: 480px) {
 	.rwd-line {
 		display: inline;
