@@ -16,8 +16,12 @@ body {
 		background			: 				#ffffff													;
 		font-size			:   			62.5%                               						; 
 }							
-
-
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
 
 h1, 			
 h2, 			
@@ -77,6 +81,68 @@ header{
 	margin-left: 13.642857143%; /*191/1400*/
 	margin-top: 1.4em;
 	margin-bottom: 1em;
+}
+
+.head-nav {
+	background: #303438;
+	border-left: 9px solid #26292c;
+	padding-left: 4em;
+}
+
+.btn-input {
+	height: 33px;
+	width: 67%;
+	font-size: 1.5em;
+	font-family: georgia,"times new roman", serif;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border: none;
+	color: #b5b6b7;
+	background: #45494c;
+	padding-left: .5em;
+}
+
+.btn-search {
+	margin-left: 4.1%;
+	margin-bottom: -1em;
+}
+
+.nav-1:after,
+.nav-2:after,
+.nav-3:after {
+	content: url(/css/img/right-arrow-2.jpg);
+	float: right;
+}
+
+.nav-1 {
+	margin-top: 1em;
+	padding-bottom: 1em;
+	width: 85%;
+}
+.nav-1 a {
+	color: #989a9c;
+	font-size: 1.4em;
+	text-transform: capitalize;
+}
+
+.nav-2,
+.nav-3 {
+	padding-top: 1.2em;
+	padding-bottom: 1em;
+	width: 85%;
+	border-top: 1px solid #45494c;
+}
+
+.nav-2 a {
+	color: #989a9c;
+	font-size: 1.3em;
+	text-transform: capitalize;
+}
+.nav-3 a {
+	color: #ffffff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family : "futurastd", arial, sans-serif;
 }
 .btop {
 	width: 100% ;
